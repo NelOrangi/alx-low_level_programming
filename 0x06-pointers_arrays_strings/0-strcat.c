@@ -20,6 +20,7 @@ char *_strcat(char *dest, char *src)
 		if (*(src + count2) == '\0')											break;
 		count++;
 		count2++;
-	}									}
-	return (dest);
+	}
+	return(dest);
 }
+
